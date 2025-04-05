@@ -1,0 +1,88 @@
+body {
+    background-color:rgb(220, 220, 216);
+    height: 100%;
+    width: 100%;
+}
+div {
+    margin: 30px;
+}
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+.color-transition {
+    color: black;
+    transition: color 0.5s ease-in-out;
+}
+.color-transition:hover {
+    color: whitesmoke;
+}
+.text-shadow {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    animation: textShadow 2s infinite alternate;
+}
+@keyframes textShadow {
+    0% {
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    }
+}
+
+.me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(99, 98, 98);
+}
+.me p {
+    font-size: 40px;
+    padding-left: 40px;
+    color: whitesmoke;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.me img {
+    width: 300px;
+    height: 300px;
+
+}
+p {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+span {
+    font-weight: bold;
+
+}
+.about-me {
+    display: flex;
+    gap: 10px;
+}
+.about-me p {
+
+    display: flex;
+    flex-direction: column  ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 10px solid rgb(196, 196, 196);
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px;
+    
+}
+
+img {
+    height: 30px;
+    width: 30px;
+
+}
